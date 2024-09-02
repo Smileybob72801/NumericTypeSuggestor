@@ -15,21 +15,21 @@
 
 ## Instructions
 
-3. Input the minimum and maximum values in the respective fields.
-4. Select the desired options for precision and type restrictions.
-5. View the suggested numeric type displayed in the app.
+1. Input the minimum and maximum values in the respective fields.
+2. Select the desired options for precision and type restrictions.
+3. View the suggested numeric type displayed in the app.
 
    
 ## Build the Project
 
 Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/NumericTypeSuggestor.git
+git clone https://github.com/Smileybob72801/NumericTypeSuggestor.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd NumericTypeSuggestor/NumericTypeSuggestor
+cd NumericTypeSuggestor
 ```
 
 Build the project:
