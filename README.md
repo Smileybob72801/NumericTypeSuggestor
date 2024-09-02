@@ -13,15 +13,13 @@
 
 [![Numeric Type Suggestor](https://raw.githubusercontent.com/Smileybob72801/NumericTypeSuggestor/master/screenshots/numericTypeSuggesterScreenshot.png)](https://raw.githubusercontent.com/Smileybob72801/NumericTypeSuggestor/master/screenshots/numericTypeSuggesterScreenshot.png)
 
-
 ## Instructions
 
-1. Download and extract the latest release.
-2. Run `NumericTypeSuggestor.exe`.
 3. Input the minimum and maximum values in the respective fields.
 4. Select the desired options for precision and type restrictions.
 5. View the suggested numeric type displayed in the app.
 
+   
 ## Build the Project
 
 Clone the repository:
