@@ -26,27 +26,34 @@
 Clone the repository:
 ```bash
 git clone https://github.com/YourUsername/NumericTypeSuggestor.git
+```
 
 Navigate to the project directory:
 ```bash
 cd NumericTypeSuggestor/NumericTypeSuggestor
+```
 
 Build the project:
+```bash
 dotnet build
+```
 
 Run the application:
+```bash
 dotnet run
+```
 
 ## Technologies Used
-WinForms for creating the desktop application interface.
-.NET Core for backend logic and calculations.
+
+- **WinForms** for creating the desktop application interface.
+- **.NET Core** for backend logic and calculations.
 
 
 ## Prerequisites
 
-Windows OS
+- **Windows OS**
 
-.NET SDK 8.0 or later
+- **.NET SDK 8.0** or later
 
 ## Future Enhancements
 
