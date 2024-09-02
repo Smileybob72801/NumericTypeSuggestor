@@ -58,4 +58,5 @@ dotnet run
 ## Future Enhancements
 
 🌐 Cross-Platform Support: Plan to expand the application for cross-platform use with .NET MAUI.
+
 📊 Visual Range Indicators: Add graphical representations of ranges for better visual feedback.
