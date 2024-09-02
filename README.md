@@ -11,7 +11,8 @@
 
 ## Screenshots
 
-[![Numeric Type Suggestor]
+[![Numeric Type Suggestor
+(https://raw.githubusercontent.com/Smileybob72801/NumericTypeSuggestor/master/screenshots/numericTypeSuggesterScreenshot.png)]
 (https://raw.githubusercontent.com/Smileybob72801/NumericTypeSuggestor/master/screenshots/numericTypeSuggesterScreenshot.png)
 
 ## Instructions
