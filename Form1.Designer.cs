@@ -104,7 +104,6 @@
 			MustBePreciseCheckBox.Text = "Precise?";
 			MustBePreciseCheckBox.TextAlign = ContentAlignment.MiddleRight;
 			MustBePreciseCheckBox.UseVisualStyleBackColor = true;
-			MustBePreciseCheckBox.Visible = false;
 			MustBePreciseCheckBox.CheckedChanged += MustBePreciseCheckBox_CheckedChanged;
 			// 
 			// label3
