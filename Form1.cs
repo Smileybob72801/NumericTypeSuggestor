@@ -34,14 +34,7 @@ namespace NumericTypeSuggestor
 
 		private void MinValueTextBox_KeyPress(object sender, KeyPressEventArgs e)
 		{
-			if (MinValueTextBox.Text.Length == 0)
-			{
-				if (!IsValidCharOrMinus(e.KeyChar))
-				{
-					e.Handled = true;
-				}
-			}
-			else if (!IsValidChar(e.KeyChar))
+			if (!IsValidChar((TextBox)sender, e.KeyChar))
 			{
 				e.Handled = true;
 			}
@@ -49,24 +42,16 @@ namespace NumericTypeSuggestor
 
 		private void MaxValueTextBox_KeyPress(object sender, KeyPressEventArgs e)
 		{
-			if (MaxValueTextBox.Text.Length == 0)
-			{
-				if (!IsValidCharOrMinus(e.KeyChar))
-				{
-					e.Handled = true;
-				}
-			}
-			else if (!IsValidChar(e.KeyChar))
+			if (!IsValidChar((TextBox)sender , e.KeyChar))
 			{
 				e.Handled = true;
 			}
 		}
 
-		private static bool IsValidChar(char keyChar) =>
-			char.IsControl(keyChar) || char.IsDigit(keyChar);
-
-		private static bool IsValidCharOrMinus(char keyChar) =>
-			keyChar.Equals('-') || char.IsControl(keyChar) || char.IsDigit(keyChar);
+		private static bool IsValidChar(TextBox textBox, char keyChar) =>
+			char.IsControl(keyChar) ||
+			char.IsDigit(keyChar) ||
+			(keyChar.Equals('-') && textBox.SelectionStart == 0);
 
 		private void SetSuggestedTypeText(BigInteger min, BigInteger max)
 		{
